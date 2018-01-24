@@ -8,5 +8,24 @@
 
 import Foundation
 
-print("Hello, World!")
+//Generate a random number
+
+var randemnumber = arc4random_uniform(100)
+
+//Ask user input
+
+//Take user input
+
+//Determine wrong or ( Loop until correct )
+
+//If correct ask if they want to play again
+
+// If incorrect tell them the correct answer and ask them to play agin
+
+
+
+    
+
+
+
 
