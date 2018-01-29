@@ -18,8 +18,11 @@ var tries = 1
 //print(randemnumber)
 var playAgain = "yes or okay"
 while playAgain == "yes or okay" {
+   // print("what your name ?")
+   // print("how old are you ?")
 print("pleas guess a number.")
-guess = Int(readLine()!)
+    
+ guess = Int(readLine()!)
 while  guess != randemnumber && tries < 5{
     if randemnumber > guess! {
         print("The number was higher!")
@@ -44,12 +47,14 @@ while  guess != randemnumber && tries < 5{
     
     if tries >= 5 {
         print("you ran out of tries the number was \(randemnumber) do you want to play again?")
-        print (" Do you play again" )
+        print (" Do you want play again" )
         playAgain = readLine()!
+         print("yes")
         }
-    if randemnumber != guess {
-        print("No")
-    }
+    
+    //if randemnumber != guess {
+      //  print("No")
+    //}
     if randemnumber == guess! {
         print("yes")
     }
